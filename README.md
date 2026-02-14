@@ -13,13 +13,16 @@ For every date, the dataset also provides **image statistics** computed from a h
 
 Competition link to find the Data: <https://www.kaggle.com/competitions/2-el-1730-machine-learning-project-2026/overview>
 
+![Pipeline](image.png)
+
+
 ## Approach
 We follow a standard supervised-learning pipeline with feature engineering and model training. We first extract geometric features from each polygon and then build temporal features. We also summarize the multi-date RGB statistics with simple aggregates and differences. The contextual fields `urban_type` and `geography_type` are encoded using multi-hot, and we apply basic cleaning. Finally, we train and compare several classifiers, with LightGBM and XGBoost as our main models and Random Forest, k-NN, linear SVM, and an MLP as baselines. 
 
 For more details on the methodology and results, please refer to our report: **[`report.pdf`](reports/report.pdf)**.
 
 
-![Pipeline](image.png)
+
 
 ## Results
 - LightGBM achieved the best validation Weighted-F1 in our local tests (≈ 0.779 on 3-fold stratified CV for the best configuration).
