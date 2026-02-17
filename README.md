@@ -27,4 +27,4 @@ For more details on the methodology and results, please refer to our report: **[
 ## Results
 - LightGBM achieved the best validation Weighted-F1 in our local tests (≈ 0.779 on 3-fold stratified CV for the best configuration).
 
-> Note: Kaggle public leaderboard uses a subset of the test set; final ranking may differ.
+> Note: Kaggle public leaderboard uses a subset (30%) of the test set; final ranking may differ.
