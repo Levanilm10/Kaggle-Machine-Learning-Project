@@ -25,6 +25,5 @@ For more details on the methodology and results, please refer to our report: **[
 
 
 ## Results
-- LightGBM achieved the best validation Weighted-F1 in our local tests (≈ 0.779 on 3-fold stratified CV for the best configuration).
-
-> Note: Kaggle public leaderboard uses a subset (30%) of the test set; final ranking may differ.
+LightGBM achieved the best validation Weighted-F1 in our local tests (≈ 0.779 on 3-fold stratified CV for the best configuration), and it also performed strongly on Kaggle with a Public Score = 0.97486 (computed on 30% of the test set) and a Private Score = 0.89799 (computed on the remaining 70% of the test set).
+We ultimately ranked 2nd out of 71 teams, among 193 participants in total.
